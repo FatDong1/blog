@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="test">hahahah</div>
+</body>
+<script>
+    let dom = document.getElementById('test')
+    dom.onclick = function () {
+        // Promise.resolve().then(function p1 () {
+        //     dom.innerHTML = '11111'
+        // })
+        // console.log('test')
+        // Promise.resolve().then(function p2 () {
+        //     // console.log(dom)
+        //     dom.innerHTML = '22222'
+        // })
+        setTimeout(function test01 () {
+            dom.textContent = '0'
+        }, 0)
+        setTimeout(function test02 () {
+            console.log(dom)
+            dom.textContent = '1'
+        }, 0)
+    }
+</script>  
+</html>

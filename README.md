@@ -13,7 +13,15 @@
 
 ## Vue
 - [用原生JS实现一个简单的Vue ](https://github.com/FatDong1/blog/issues/5)
-- [computed是如何实现缓存的（待完成）]()
+- [computed是如何实现缓存的？（待完成）]()
+- [Vue的nextTick的是怎么实现的？](https://github.com/FatDong1/blog/issues/8)
+
+## CSS
+- [使用svg写一个半圆弧进度条（待完成）]()
+
+## 网络
+- [http2的服务端推送]()
+- [浏览器缓存]()
 
 ## Awesome
 - [探索可视化构建（待完成）]()
@@ -27,9 +35,6 @@
 - [使用webp优化图片加载（待完成）]()
 
 ## 遇到的bug
-- [遇到无法复现的bug如何处理（待完成）]()
 - [原生select组件在ios的居中问题](https://github.com/FatDong1/blog/issues/6)
 - [在小程序中兼容第三方库jsEncrypt.js](https://github.com/FatDong1/blog/issues/7)
 
-## 随笔
-- [转行入门前端的故事](https://github.com/FatDong1/blog/issues/1)
