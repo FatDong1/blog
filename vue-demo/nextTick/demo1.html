@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nextTick demo1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div ref="test">{{test}}</div>
+        <button @click="handleClick">click me</button>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                test: 'begin'
+            },
+            methods: {
+                handleClick () {
+                    this.test = 'end';
+                    console.log(this.$refs.test.innerText)
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

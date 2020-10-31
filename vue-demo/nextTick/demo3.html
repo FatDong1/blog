@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nextTick demo3</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div ref="test">{{test}}</div>
+        <button @click="handleClick">click me</button>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                test: 'begin'
+            },
+            methods: {
+                handleClick() {
+                    // this.test = 'end';  // 相对于题目二删除了这行代码
+                    console.log('1')
+                    Promise.resolve().then(function promiseFn () { 
+                        console.log('promise!')
+                    })
+                    this.$nextTick(function nextTickFn () {
+                        console.log('2')
+                    })
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
