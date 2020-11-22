@@ -13,7 +13,7 @@
 ## Vue
 - [用原生JS实现一个简单的Vue ](https://github.com/FatDong1/blog/issues/5)
 - [Vuex源码学习](https://github.com/FatDong1/blog/issues/11)
-- [computed是如何实现缓存的？（待完成）]()
+- [computed是如何实现缓存的？](https://github.com/FatDong1/blog/issues/19)
 - [Vue的nextTick的是怎么实现的？](https://github.com/FatDong1/blog/issues/8)
 
 ## CSS
