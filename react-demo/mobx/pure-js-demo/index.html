@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello MobX</title>
+    <script src="./mobx.umd-5.15.7.js"></script>
+</head>
+<body>
+    <input type="text" id="text-input"/>
+    <div id="text-display"></div>
+    <div id="text-display-upppercase"></div>
+</body>
+
+<script>
+    const input = document.getElementById('text-input')
+    const textDisplay = document.getElementById('text-display')
+    const upperCaseDisplay = document.getElementById('text-display-upppercase')
+
+    const { observable, autorun } = mobx
+    
+    const text = observable({
+        title: 'hello world',
+        get uppercase () {
+            return this.title.toUpperCase()
+        }
+    })
+
+    console.log(text)
+
+    input.addEventListener('keyup', event => {
+        text.value = event.target.value
+    })
+
+    autorun(() => {
+        textDisplay.textContent = text.title
+        upperCaseDisplay.textContent = text.uppercase
+    })
+
+</script>  
+
+</html>
