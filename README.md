@@ -27,6 +27,9 @@
 - [Koa的洋葱模型是怎么实现的？](https://github.com/FatDong1/blog/issues/14)
 - [Node.js的流Stream模块](https://github.com/FatDong1/blog/issues/21)
 
+## 书籍阅读
+- [《HTTP/2 in Action》](https://github.com/FatDong1/blog/issues/18)
+
 ## 遇到的bug
 - [原生select组件在ios的居中问题](https://github.com/FatDong1/blog/issues/6)
 - [在小程序中兼容第三方库jsEncrypt.js](https://github.com/FatDong1/blog/issues/7)
