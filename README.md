@@ -27,6 +27,9 @@
 - [Koa的洋葱模型是怎么实现的？](https://github.com/FatDong1/blog/issues/14)
 - [Node.js的流Stream模块](https://github.com/FatDong1/blog/issues/21)
 
+## 随便写写
+- [转行入门前端的故事](https://github.com/FatDong1/blog/issues/1)
+
 ## 书籍阅读
 - [《HTTP/2 in Action》](https://github.com/FatDong1/blog/issues/18)
 
